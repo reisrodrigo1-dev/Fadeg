@@ -347,7 +347,7 @@ const PosProduct = ({ singleProduct }: { singleProduct: Products }) => {
 								target="_blank"
 								rel="noopener noreferrer"
 							>
-								Conheça o Processo Seletivo
+								CONHEÇA O PROCESSO SELETIVO
 							</Button>
 						</Box>
 					</Box>
