@@ -68,12 +68,22 @@ cp .env.example .env.local
 
 4. Configure as seguintes variáveis no arquivo `.env.local`:
 ```env
+# NextAuth Configuration (OBRIGATÓRIA)
+NEXTAUTH_SECRET=your_secure_random_string_here
+NEXTAUTH_URL=http://localhost:3000
+
 # OpenAI API Key (para funcionalidades de IA)
 NEXT_PUBLIC_OPENAI_API_KEY=your_openai_api_key_here
 
 # Google reCAPTCHA
 NEXT_PUBLIC_CAPTCHA_KEY=your_captcha_key_here
 ```
+
+**IMPORTANTE:** Para produção na Vercel, configure estas variáveis no painel da Vercel:
+- `NEXTAUTH_SECRET`: String aleatória segura (mínimo 32 caracteres)
+- `NEXTAUTH_URL`: URL do seu domínio na Vercel (ex: `https://fadeg.vercel.app`)
+- `NEXT_PUBLIC_OPENAI_API_KEY`: Sua chave da OpenAI
+- `NEXT_PUBLIC_CAPTCHA_KEY`: Sua chave do Google reCAPTCHA
 
 5. Execute o projeto:
 ```bash
