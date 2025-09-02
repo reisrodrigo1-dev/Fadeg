@@ -87,7 +87,7 @@ const MobileMenu: FC = () => {
             </Box>
           )}
 
-          {!item.parentCategoryId && item.id !== 31 && item.UR && (
+          {!item.parentCategoryId && item.id !== 31 && item.URL && (
             <Box key={index} py={1}>
               <NavLink href={item.URL}>{item.text}</NavLink>
             </Box>
@@ -148,7 +148,10 @@ const MobileMenu: FC = () => {
                 <NavLink href={`/livraria`}>Livraria</NavLink>
               </Box>
               <Box py={1} ml={2}>
-                <NavLink href={`/professor`}>/Professor</NavLink>
+                <NavLink href={`/professor`}>Professor</NavLink>
+              </Box>
+              <Box py={1} ml={2}>
+                <NavLink href={`/contato`}>Contato</NavLink>
               </Box>
             </Box>
           </Scrollbar>

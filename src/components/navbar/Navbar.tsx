@@ -172,6 +172,9 @@ const Navbar: FC<NavbarProps> = ({
 						<StyledNavLink href={"/institucional"} sx={{ fontWeight: "bold" }}>
 							Quem Somos
 						</StyledNavLink>
+						<StyledNavLink href={"/contato"} sx={{ fontWeight: "bold" }}>
+							Contato
+						</StyledNavLink>
 						{/* <StyledNavLink href={"/embaixadores"}>
 							Embaixadores / Parceiros
 						</StyledNavLink> */}
@@ -179,7 +182,7 @@ const Navbar: FC<NavbarProps> = ({
 							target="_blank"
 							href={"https://blog.meucurso.com.br"}
 						>
-							Blog MeuCurso
+							Notícias
 						</StyledNavLink>
 						{/* <StyledNavLink href={"/central-de-ajuda"}>
               Central de Ajuda

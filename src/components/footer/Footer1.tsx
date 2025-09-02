@@ -114,7 +114,7 @@ const Footer1: FC = () => {
 									Municipio: São Paulo - SP
 								</Box>
 								<Box py={0.6} color="grey.500">
-									E-mail: contato@meucurso.com.br
+									E-mail: ouvidoria@fadedg.com.br
 								</Box>
 								<Box py={0.6} color="grey.500">
 									CEP: 01.309-000
@@ -127,7 +127,7 @@ const Footer1: FC = () => {
 								</Box>
 
 								<Box py={0.6} fontWeight={"bolder"} color="grey.500">
-									Atendimento Presencial (loja física)
+									Atendimento Presencial (SEDE)
 								</Box>
 								<Box py={0.6} color="grey.500">
 									2ª a 6ª: das 08:00 às 20:00
@@ -160,7 +160,7 @@ const Footer1: FC = () => {
 								</Box>
 
 								<Box py={0.6} color="grey.500">
-									Email: ouvidoria@meucurso.com.br
+									Email: ouvidoria@fadedg.com.br
 								</Box>
 							</Grid>
 
@@ -224,7 +224,7 @@ const aboutLinks = [
 	},
 	{
 		name: "Edital de Processo Seletivo 2025/2",
-		url: "https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fcampanhas.meucurso.com.br%2F%2FEdital_FADEG_Vestibular_2025.docx&wdOrigin=BROWSELINK",
+		url: "https://campanhas.meucurso.com.br/edital-fadeg.pdf",
 	},
 	{
 		name: "Documentos Institucionais",

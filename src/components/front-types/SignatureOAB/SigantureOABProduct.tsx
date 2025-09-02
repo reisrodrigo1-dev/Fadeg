@@ -562,7 +562,7 @@ const SigantureOABProduct = ({ singleProduct }) => {
 										dentro da data de fechamento da fatura, o que pode ocorrer a
 										devolução dos valores dentro dos procedimentos de cada
 										operadora. A solicitação de cancelamento deverá ser por
-										e-mail no contato@meucurso.com.br.
+										e-mail no contato@fadeg.com.br.
 									</Typography>
 								</AccordionDetails>
 							</Accordion>

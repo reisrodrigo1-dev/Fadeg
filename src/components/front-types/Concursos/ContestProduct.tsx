@@ -823,7 +823,7 @@ const ContestProduct = ({ singleProduct }) => {
 									</li>
 									<li>
 										A solicitação de cancelamento deverá ser por e-mail no
-										contato@meucurso.com.br.
+										contato@fadeg.com.br.
 									</li>
 								</ol>
 							</AccordionDetails>
