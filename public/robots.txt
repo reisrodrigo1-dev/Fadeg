@@ -1,0 +1,12 @@
+# Disallow all crawlers access to certain pages.
+User-agent: *
+Allow: /
+Disallow: /Scripts/
+Disallow: /Account/
+Disallow: /CheckEmail/
+Disallow: /NewPassword/
+Disallow: /Register/
+Disallow: /page/
+Disallow: /marketplace/index/
+
+Sitemap: https://www.meucurso.com.br/sitemap.xml
