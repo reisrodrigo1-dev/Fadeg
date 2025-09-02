@@ -354,53 +354,6 @@ const PosProduct = ({ singleProduct }: { singleProduct: Products }) => {
 				</Box>
 			</Container>
 			<Container>
-				<Grid container mb={4} spacing={1} pt={4}>
-					<Grid item xs={12} md={8}>
-						<H2 fontSize={28} color={"#C4791E"}>
-							Módulos
-						</H2>
-						<Modules
-							modules={singleProduct?.ProductModules}
-							titleColor="#CA7B1C"
-						/>
-
-						{/* <Grid item xs={12} md={8}>
-							<H2 fontSize={28} color={"#C4791E"}>
-								Módulos
-							</H2>
-							<div
-								dangerouslySetInnerHTML={{
-									__html: singleProduct.Modules,
-								}}
-							/>
-						</Grid> */}
-					</Grid>
-
-				</Grid>
-			</Container>
-			<Box
-				flexDirection={"column"}
-				display={"flex"}
-				sx={{
-					background: gradientBackground,
-					alignItems: "center",
-					gap: 4,
-					py: 2,
-				}}
-			>
-				<Box>
-					<H2 color={"white"} textAlign={"center"}>
-						ESTUDE COM GRANDES NOMES
-					</H2>
-				</Box>
-				<TeachersCarousel teachers={singleProduct.Teachers} />
-				<Box>
-					<Paragraph fontWeight={"bolder"} color={"whitesmoke"}>
-						*Dentre outros grandes nomes
-					</Paragraph>
-				</Box>
-			</Box>
-			<Container>
 				<H2 sx={{ marginTop: "2rem" }} color={"#C4791E"} fontSize={28}>
 					DIFERENCIAIS
 				</H2>
