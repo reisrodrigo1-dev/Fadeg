@@ -17,6 +17,7 @@ import {
 	AccordionSummary,
 	Box,
 	Breadcrumbs,
+	Button,
 	Container,
 	Grid,
 	Link,
@@ -327,6 +328,27 @@ const PosProduct = ({ singleProduct }: { singleProduct: Products }) => {
 									</Typography>
 								</Box>
 							</Box>
+						</Box>
+						<Box sx={{ mt: 3, textAlign: "center" }}>
+							<Button
+								variant="contained"
+								sx={{
+									backgroundColor: "#CC7B1C",
+									color: "white",
+									fontWeight: "bolder",
+									"&:hover": {
+										backgroundColor: "#B86A17",
+									},
+									px: 3,
+									py: 1.5,
+									borderRadius: 2,
+								}}
+								href="/processo-seletivo"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								Conheça o Processo Seletivo
+							</Button>
 						</Box>
 					</Box>
 				</Box>
