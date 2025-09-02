@@ -256,55 +256,7 @@ const PosProduct = ({ singleProduct }: { singleProduct: Products }) => {
 							/>
 						</Grid> */}
 					</Grid>
-					<Grid item xs={12} md={4}>
-						<Box display={"flex"} alignItems={"center"}>
-							<Avatar sx={{ backgroundColor: "#ca7b1c", mr: 1 }}>
-								<StarBorderIcon />
-							</Avatar>
-							<H2 fontSize={"20px"}>Diferenciais</H2>
-						</Box>
-						<Box sx={{ backgroundColor: "#E8E5E5", p: 2, my: 1 }}>
-							<List
-								sx={{
-									width: "100%",
-									maxWidth: 360,
-								}}
-							>
-								{exclusives.map((items) => (
-									<ListItem key={items.id}>
-										<ListItemIcon sx={{ color: "#1F3657" }}>
-											<ArrowCircleRightIcon />
-										</ListItemIcon>
-										<ListItemText
-											sx={{
-												"& .css-1dswxpy-MuiTypography-root": {
-													fontSize: "16px",
-												},
-											}}
-											primary={items.text}
-										/>
-									</ListItem>
-								))}
-							</List>
-							<Box display={"flex"} alignItems={"center"}>
-								<WorkspacePremiumIcon sx={{ fontSize: 50, color: "#ca7b1c" }} />
-								<H5 textAlign={"center"} sx={{ fontWeight: "bolder " }}>
-									FADEG - Faculdade de Direito, Educação e Gestão{" "}
-								</H5>
-							</Box>
-							<Paragraph fontSize={"13px"} textAlign={"center"} my={1}>
-								Credenciada por intermédio da Portaria n.º 1.382 de 14/07/2023,
-								publicada no DOU em 17/07/2023.
-							</Paragraph>
-						</Box>
-						<Paragraph sx={{ fontSize: "10px", my: 2 }}>
-							Importante: módulos e corpo docente sujeitos a alterações. As
-							regras relativas à certificação, prazos e procedimentos estão
-							discriminadas no Manual do Aluno. A conclusão e certificação do
-							curso dependerá do cumprimento dos requisitos do programa.
-						</Paragraph>
-						<i>SKU:{singleProduct.SKU}</i>
-					</Grid>
+
 				</Grid>
 			</Container>
 			<Box
@@ -403,7 +355,7 @@ const PosProduct = ({ singleProduct }: { singleProduct: Products }) => {
 					</Grid>
 				</Grid>
 			</Container> */}
-			<Grid container my={4} sx={{ background: gradientBackground }}>
+			{/* <Grid container my={4} sx={{ background: gradientBackground }}>
 				<Container>
 					<Grid item md={12}>
 						<H2 textAlign={"center"} paddingTop={4} color={"white"}>
@@ -697,8 +649,8 @@ const PosProduct = ({ singleProduct }: { singleProduct: Products }) => {
 						</Accordion>
 					</Box>
 				</Container>
-			</Grid>
-			<Container>
+			</Grid> */}
+			{/* <Container>
 				<Box my={3} py={5}>
 					<H2>PRINCIPAIS DÚVIDAS</H2>
 					<Accordion sx={{ mt: 3 }}>
@@ -838,7 +790,7 @@ const PosProduct = ({ singleProduct }: { singleProduct: Products }) => {
 						</AccordionDetails>
 					</Accordion>
 				</Box>
-			</Container>
+			</Container> */}
 		</>
 	);
 };
