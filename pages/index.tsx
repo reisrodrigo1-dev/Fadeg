@@ -52,9 +52,9 @@ type IndexPageProps = {
 const tabs = [
 	{
 		id: 1,
-		name: "FADEG",
+		name: "Graduação",
 		value: "1",
-		textTemplate: "Fadeg",
+		textTemplate: "Graduação",
 		buttonColor: "#ff9d00",
 		categoryId: {
 			id: 308,
@@ -75,9 +75,9 @@ const tabs = [
 
 	{
 		id: 3,
-		name: "Prática na Advocacia",
+		name: "Extensão Universitária",
 		value: "3",
-		textTemplate: "Atualizações e Práticas",
+		textTemplate: "Extensão Universitária",
 		buttonColor: "#CC8A48",
 		categoryId: {
 			id: 12,

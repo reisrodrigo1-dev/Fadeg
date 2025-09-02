@@ -89,7 +89,7 @@ const CentralDeAjuda = (props) => {
                     alt="new-post"
                   />
                   <h3>E-mail</h3>
-                  <strong>contato@meucurso.com.br</strong>
+                  <strong>contato@fadeg.com.br</strong>
                 </Grid>
                 <Grid item md={4} textAlign={"center"}>
                   <Image
@@ -98,7 +98,7 @@ const CentralDeAjuda = (props) => {
                     src="https://img.icons8.com/ios-filled/50/fe9900/shop.png"
                     alt="shop"
                   />
-                  <h3>Loja</h3>
+                  <h3>Unidade SEDE</h3>
                   <strong>Unidade São Paulo</strong>
                   <p>Rua Luis Coelho, 340</p>
                   <p>
