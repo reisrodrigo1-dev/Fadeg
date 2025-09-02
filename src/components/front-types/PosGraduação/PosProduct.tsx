@@ -184,8 +184,9 @@ const PosProduct = ({ singleProduct }: { singleProduct: Products }) => {
 					display={"flex"}
 					justifyContent={"space-between"}
 					alignItems={{ xs: "center", md: "start" }}
+					gap={3}
 				>
-					<Box sx={{ mb: { xs: "10rem", md: ".25rem" } }}>
+					<Box sx={{ mb: { xs: "2rem", md: ".25rem" }, flex: 1 }}>
 						<div
 							dangerouslySetInnerHTML={{
 								__html: singleProduct.ShortDescription,
@@ -226,12 +227,108 @@ const PosProduct = ({ singleProduct }: { singleProduct: Products }) => {
 						</Box>
 					</Box>
 
-					<TeachersFrame
-						CoordinatorName={singleProduct.CoordinatorName}
-						CourseCoordinatorUrl={singleProduct.CourseCoordinatorUrl}
-						coordinatorOverview={coordinatorOverview}
-						gradientColor={gradientBackground}
-					/>
+					<Box
+						sx={{
+							flex: 1,
+							maxWidth: { xs: "100%", md: "400px" },
+							mb: { xs: "2rem", md: ".25rem" },
+							p: 3,
+							borderRadius: 3,
+							border: "2px solid #CC7B1C",
+							backgroundColor: "#f9f9f9",
+						}}
+					>
+						<H5
+							sx={{
+								color: "#CC7B1C",
+								fontWeight: "bolder",
+								textAlign: "center",
+								mb: 3,
+								fontSize: "1.2rem"
+							}}
+						>
+							BENEFÍCIOS
+						</H5>
+						<Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
+							<Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+								<StarBorderIcon sx={{ fontSize: 24, color: "#3D526F" }} />
+								<Box>
+									<Typography sx={{ fontWeight: "bolder", fontSize: "0.9rem" }}>
+										Digital ✔️
+									</Typography>
+									<Typography sx={{ fontSize: "0.8rem", color: "#666" }}>
+										Online | Assista ao vivo ou gravações
+									</Typography>
+								</Box>
+							</Box>
+							<Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+								<AutoStoriesIcon sx={{ fontSize: 24, color: "#3D526F" }} />
+								<Box>
+									<Typography sx={{ fontWeight: "bolder", fontSize: "0.9rem" }}>
+										Metodologia ✔️
+									</Typography>
+									<Typography sx={{ fontSize: "0.8rem", color: "#666" }}>
+										Saber + Praticar + Revisar
+									</Typography>
+								</Box>
+							</Box>
+							<Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+								<WorkspacePremiumIcon sx={{ fontSize: 24, color: "#3D526F" }} />
+								<Box>
+									<Typography sx={{ fontWeight: "bolder", fontSize: "0.9rem" }}>
+										Preparação para Concursos ✔️
+									</Typography>
+									<Typography sx={{ fontSize: "0.8rem", color: "#666" }}>
+										Acesso ao conteúdo para concursos
+									</Typography>
+								</Box>
+							</Box>
+							<Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+								<ArrowCircleRightIcon sx={{ fontSize: 24, color: "#3D526F" }} />
+								<Box>
+									<Typography sx={{ fontWeight: "bolder", fontSize: "0.9rem" }}>
+										Certificação intermediária ✔️
+									</Typography>
+									<Typography sx={{ fontSize: "0.8rem", color: "#666" }}>
+										A cada módulo concluído, uma certificação.
+									</Typography>
+								</Box>
+							</Box>
+							<Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+								<PlayCircleIcon sx={{ fontSize: 24, color: "#3D526F" }} />
+								<Box>
+									<Typography sx={{ fontWeight: "bolder", fontSize: "0.9rem" }}>
+										Flexibilidade ✔️
+									</Typography>
+									<Typography sx={{ fontSize: "0.8rem", color: "#666" }}>
+										Estude no seu tempo
+									</Typography>
+								</Box>
+							</Box>
+							<Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+								<ConstructionIcon sx={{ fontSize: 24, color: "#3D526F" }} />
+								<Box>
+									<Typography sx={{ fontWeight: "bolder", fontSize: "0.9rem" }}>
+										Vestibular ou Enem ✔️
+									</Typography>
+									<Typography sx={{ fontSize: "0.8rem", color: "#666" }}>
+										Prova online ou utilize sua nota no Enem
+									</Typography>
+								</Box>
+							</Box>
+							<Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+								<RouteIcon sx={{ fontSize: 24, color: "#3D526F" }} />
+								<Box>
+									<Typography sx={{ fontWeight: "bolder", fontSize: "0.9rem" }}>
+										Verticalizado ✔️
+									</Typography>
+									<Typography sx={{ fontSize: "0.8rem", color: "#666" }}>
+										App acompanhe os concursos públicos
+									</Typography>
+								</Box>
+							</Box>
+						</Box>
+					</Box>
 				</Box>
 			</Container>
 			<Container>
